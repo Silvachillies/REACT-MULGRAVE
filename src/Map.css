@@ -1,0 +1,8 @@
+.map {
+  display: flex;
+  justify-content: center;
+}
+body {
+  color: black;
+  font-weight: 900;
+}

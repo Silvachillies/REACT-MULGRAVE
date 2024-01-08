@@ -1,0 +1,29 @@
+.itemCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 15rem;
+  border-radius: 7px;
+  margin-top: 12px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 9px;
+  transition-duration: 2s;
+}
+.itemCard:hover {
+  background-color: rgb(255, 255, 255);
+  transition: 2s ease-out;
+}
+.watchmenu {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+button {
+  background: none;
+  padding: 4.5px;
+  border-radius: 4px;
+  cursor: pointer;
+}

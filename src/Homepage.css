@@ -1,0 +1,32 @@
+body {
+  margin: none;
+  color: rgb(244, 239, 239);
+}
+.navbar {
+  background: linear-gradient(to left, rgb(1, 53, 30), rgb(6, 168, 152));
+  border-radius: 7px;
+  min-width: max-content;
+  min-height: 5em;
+  padding: 1.5, 3rem;
+  margin: none;
+}
+.socials {
+  display: flex;
+  padding: 0.75em;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 1em;
+}
+a {
+  color: rgb(238, 208, 208);
+  padding: 1em;
+}
+h1 {
+  padding: 2rem;
+}
+.title {
+  color: black;
+}
