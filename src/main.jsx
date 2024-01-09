@@ -15,7 +15,7 @@ import { Contact, Loader2Icon } from "lucide-react";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Homepage />,
+    element: <App />,
   },
   {
     path: "homepage",
