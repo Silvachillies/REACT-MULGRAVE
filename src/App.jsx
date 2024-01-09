@@ -5,11 +5,7 @@ import CartProvider from "./Cart";
 import "./App.css";
 
 function App() {
-  return (
-    <CartProvider>
-      <Homepage />
-    </CartProvider>
-  );
+  return <Homepage />;
 }
 
 export default App;

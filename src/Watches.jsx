@@ -5,6 +5,7 @@ import { PRODUCTS } from "./Products";
 import { useState, useContext } from "react";
 import { CartContext } from "./Cart";
 import { Rows } from "lucide-react";
+import Footer from "./Footer";
 
 export default function Watches({ watch }) {
   return (

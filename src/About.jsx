@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import AnimatedPage from "./Animated";
+import Footer from "./Footer";
 import "./About.css";
 
 export default function About() {
@@ -22,6 +23,7 @@ export default function About() {
         <img src="./src/assets/oyster.jpg" height={400} />
         <img src="./src/assets/patek.jpg" height={300} />
       </div>
+      <Footer />
     </AnimatedPage>
   );
 }
